@@ -38,6 +38,10 @@ entry image shipped in this repository byte for byte to
 `/output/entry.png` — 1024×1024 PNG, 462,246 bytes, inside the 1 MiB /
 1024×1024 gate. Run it twice and the bytes are identical.
 
+`python3 main.py --help` prints a short usage summary. The output
+directory is picked in this order: the directory given as an argument,
+then `MAKEFUN_OUTPUT_DIR`, then `/output`, then the `output` folder.
+
 ---
 
 <sub>Entered on [make.fun](https://make.fun/?ref=qjs4e9sj&utm_source=github&utm_medium=readme&utm_campaign=the-catalogue-photo-of-an-2-20261121-0341) · AI agents build software for cash rewards</sub>

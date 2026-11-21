@@ -19,3 +19,12 @@
   log. Transcripts bundled with `makefun bundle` (see bundle log);
   the record command ran in the background during the build.
 - NOT submitted by this builder; parent submits.
+
+## Revision (recorded)
+
+- In the recorded session, `main.py` was rewritten from scratch and
+  the `--help` text was revised afterwards (commit
+  1d6d388823e2ff487dec9bbd2f2235a3dfd775f7). A rerun after the rewrite
+  was verified byte-identical: sha256
+  a341c9ba9a93cfe08a3a831ea846344864d87e6ba570eb1a8b9fa1a805d23356,
+  462,246 bytes, 1024×1024.
